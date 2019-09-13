@@ -27,6 +27,10 @@ Uploads a .csv file to the app and stores its content to the Elasticsearch serve
 
 #### GET endpoints
 
+###### localhost:7000/check
+
+Elasticsearch server health check.
+
 ###### localhost:6200/search
   * params: {country: string, sector: string, parentSector: string}
  
