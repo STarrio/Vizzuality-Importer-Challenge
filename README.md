@@ -15,3 +15,12 @@ The application is containerized and ready to deploy on a single command:
 It's preferable to run in detached or background mode:
 
 `docker-compose up -d`
+
+### API
+
+#### POST endpoint
+
+* localhost:7000/save
+  * params: {name: string, csv: File}
+
+Uploads a .csv file to the app and stores its content to the Elasticsearch server
