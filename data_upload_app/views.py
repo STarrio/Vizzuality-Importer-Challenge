@@ -35,6 +35,7 @@ async def save(request):
     field = await reader.next()
     assert field.name == 'csv'
     filename = field.filename
+    assert filename.split('.')[-1] == 'csv'
     lines = 0
     entries = []
     while True:
@@ -67,8 +68,6 @@ async def save(request):
 
     # to avoid indexing the headers, we remove the first 2 rows
     entries = entries[2:]
-
-    print(entries)
 
     # We run the bulk index. ES's limit for a bulk index depends on various factors and can
     # run inconsistently with large files, so it's better to index documents by batches.
