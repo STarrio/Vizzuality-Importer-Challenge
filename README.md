@@ -60,3 +60,10 @@ Sector filter. :sector is 0,1 or 2 as defined on types/categories.ts.
 
 Parent Sector filter (returns all entries with the given parent sector).
 :parentSector's value is defined on types/categories.ts.
+
+
+#### DELETE endpoint
+
+###### localhost:7000/delete_index
+
+Deletes the index with the name EMISSIONS_DATA_INDEX_NAME from Elasticsearch
