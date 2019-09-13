@@ -59,4 +59,4 @@ Sector filter. :sector is 0,1 or 2 as defined on types/categories.ts.
 ###### localhost:6200/search/parent_sector/:parentSector
 
 Parent Sector filter (returns all entries with the given parent sector).
-:parentSector'svalue is defined on types/categories.ts.
+:parentSector's value is defined on types/categories.ts.
