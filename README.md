@@ -6,7 +6,7 @@ This is my submission for the Vizzuality Importer Challenge. It consists of two 
 
 The data storage system is an Elasticsearch server.
 
-### Hoy to deploy
+### How to deploy
 
 The application is containerized and ready to deploy on a single command:
 
